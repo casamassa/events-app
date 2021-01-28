@@ -43,13 +43,16 @@ export default {
   },
   methods: {
     async getEventData() {
+      // Get the access token from the auth wrapper
+      const accessToken = await this.$auth.getTokenSilently()
+
       // Use the eventService to call the getEventSingle() method
-      EventService.getEventSingle(this.$route.params.id)
+      EventService.getEventSingle(this.$route.params.id, accessToken)
       .then(
         (event => {
           this.$set(this, "event", event)
         }).bind(this)
-      );
+      )
     }
   }
 }
