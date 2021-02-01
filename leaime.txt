@@ -1,4 +1,4 @@
 Tutorial in 
 PART 1 https://auth0.com/blog/beginner-vuejs-tutorial-with-user-login/
 PART 2 https://auth0.com/blog/how-to-make-secure-http-requests-with-vue-and-express/
-PART 3 https://auth0.com/blog/build-an-admin-dashboard-with-express-and-vue-creating-the-frontend/
+PART 3 https://auth0.com/blog/build-an-admin-dashboard-with-express-and-vue-getting-started/

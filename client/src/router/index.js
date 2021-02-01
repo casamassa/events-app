@@ -24,7 +24,13 @@ const routes = [
     name: 'eventSingle',
     component: () => import('../views/EventSingle.vue'),
     beforeEnter: authGuard
-  }
+  },
+  {
+    path: '/dashboard',
+    name: 'dashboard',
+    component: () => import('../views/Dashboard.vue'),
+    beforeEnter: authGuard
+}
 ]
 
 const router = new VueRouter({
